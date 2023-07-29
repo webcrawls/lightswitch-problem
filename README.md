@@ -4,4 +4,4 @@ A visualization of the lightswitch problem described in [this Numberphile video]
 
 ## usage instructions
 
-I made this project during one of the Godot 4 RCs, so it should be good to go on any version of Godot 4. Just run it and you'll see the instructions.
+Just run this project using Godot 4.1+, and it should work. Press enter to advance the visualization.

@@ -3,6 +3,7 @@ extends Node2D
 var switches: Array[Switch] = []
 var person_index: int = 1
 var switch_scene: PackedScene = preload("res://Switch.tscn")
+var frames: int = 0
 
 func _ready():
 	for i in range(0, 100):
@@ -19,10 +20,12 @@ func _add_switch(index: int):
 	switches.append(switch)
 
 func _physics_process(delta):
-	if Input.is_action_just_pressed("ui_accept"):
+	if frames % 5 == 0:
 		_process_person(person_index)
 		person_index += 1
 		$IndexLabel.text = "Index: "+str(person_index)
+	frames += 1
+
 
 func _process_person(index: int):
 	for i in range(0, switches.size()):
