@@ -1,5 +1,9 @@
 # `lightswitch-problem`
 
+
+https://github.com/webcrawls/lightswitch-problem/assets/69081152/e899d04d-c735-4586-96ab-3a5f91d7e67c
+
+
 A visualization of the lightswitch problem described in [this Numberphile video](https://www.youtube.com/watch?v=-UBDRX6bk-A).
 
 ## usage instructions
