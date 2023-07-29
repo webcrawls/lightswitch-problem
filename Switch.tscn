@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://cm2b7xvmofxnl"]
+
+[ext_resource type="Script" path="res://Switch.gd" id="1_m6r55"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_uo2un"]
+font_size = 19
+font_color = Color(0, 0, 0, 1)
+
+[node name="Switch" type="MarginContainer" groups=["switch"]]
+custom_minimum_size = Vector2(40, 40)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1112.0
+offset_bottom = -608.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_m6r55")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+text = "1"
+label_settings = SubResource("LabelSettings_uo2un")
+horizontal_alignment = 1
+vertical_alignment = 1
